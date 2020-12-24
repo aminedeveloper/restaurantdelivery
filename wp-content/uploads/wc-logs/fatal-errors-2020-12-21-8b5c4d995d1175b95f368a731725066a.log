@@ -1,0 +1,18 @@
+2020-12-21T18:33:22+00:00 CRITICAL Uncaught Error: Class 'Tribe__Events__Main' not found in C:\xampp\htdocs\restaurantdelivery\wp-content\themes\pizzahouse\plugins\plugin.tribe-events.php:757
+Stack trace:
+#0 C:\xampp\htdocs\restaurantdelivery\wp-includes\shortcodes.php(343): pizzahouse_sc_events(Array, '', 'trx_events')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\restaurantdelivery\wp-includes\shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(trx_ev...', 'do_shortcode_ta...', '[vc_empty_space...')
+#3 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[vc_empty_space...')
+#4 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\js_composer\include\templates\shortcodes\vc_column.php(94): wpb_js_remove_wpautop('[vc_empty_space...')
+#5 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\js_composer\include\classes\shortcodes\core\class-wpbakeryshortcode.php(271): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\js_co in C:\xampp\htdocs\restaurantdelivery\wp-content\themes\pizzahouse\plugins\plugin.tribe-events.php on line 757
+
+2020-12-21T18:45:30+00:00 CRITICAL Uncaught Error: Call to undefined method Prdd_Lite_All_Component::prdd_get_version() in C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\product-delivery-date-for-woocommerce-lite\includes\prdd-lite-component.php:274
+Stack trace:
+#0 C:\xampp\htdocs\restaurantdelivery\wp-includes\class-wp-hook.php(287): Prdd_Lite_All_Component::prdd_lite_ts_add_plugin_tracking_data(Array)
+#1 C:\xampp\htdocs\restaurantdelivery\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\product-delivery-date-for-woocommerce-lite\includes\component\tracking-data\class-ts-tracker.php(138): apply_filters('ts_tracker_data', Array)
+#3 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\product-delivery-date-for-woocommerce-lite\includes\component\tracking-data\class-ts-tracker.php(86): Prdd_Lite_TS_Tracker::ts_get_tracking_data()
+#4 C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\product-delivery-date-for-woocommerce-lite\includes\component\tracking-data\ts-t in C:\xampp\htdocs\restaurantdelivery\wp-content\plugins\product-delivery-date-for-woocommerce-lite\includes\prdd-lite-component.php on line 274
+

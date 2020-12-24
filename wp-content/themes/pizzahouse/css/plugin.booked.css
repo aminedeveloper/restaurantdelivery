@@ -1,0 +1,33 @@
+/* Booked Appointments
+------------------------------------------------------------------------------------ */
+body table.booked-calendar th .monthName a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+body table.booked-calendar th .monthName a:hover {
+	color: #ffffff;
+}
+
+body table.booked-calendar td {
+	border-color: #e5e5e5 !important;
+}
+
+body table.booked-calendar thead tr {
+	border: none;
+}
+
+body #booked-profile-page input.button-primary[type="submit"]:hover, body .booked-list-view button.button:hover, body .booked-list-view input.button-primary[type="submit"]:hover, body table.booked-calendar input.button-primary[type="submit"]:hover, body .booked-modal input.button-primary[type="submit"]:hover, body table.booked-calendar thead, body table.booked-calendar thead th, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover, body #booked-profile-page .booked-profile-header, body #booked-profile-page .booked-tabs li.active a, body #booked-profile-page .booked-tabs li.active a:hover, body #booked-profile-page .appt-block .google-cal-button > a:hover {
+	background: #ca0808 !important;
+}
+
+body #booked-profile-page input.button-primary[type="submit"]:hover, body table.booked-calendar input.button-primary[type="submit"]:hover, body .booked-list-view button.button:hover, body .booked-list-view input.button-primary[type="submit"]:hover, body .booked-modal input.button-primary[type="submit"]:hover, body table.booked-calendar th, body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover, body #booked-profile-page .booked-profile-header, body #booked-profile-page .appt-block .google-cal-button > a:hover {
+	border-color: #ca0808 !important;
+}
+
+body table.booked-calendar td.today .date span {
+	border: 2px solid #ca0808;
+}
+
+body table.booked-calendar td.today:hover .date span {
+	background: #ca0808 !important;
+}
